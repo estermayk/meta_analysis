@@ -1,0 +1,100 @@
+﻿Museum,Catalog_Number,Species,Sex,Year,State,County,,Ecoregion,WGS84LAT,WGS84LONG,CranialSutures,%UrbanPopulation,UrbanAge
+AMNH,MO-2540,Procyon lotor,M,1890,New York,Westchester,,East,41.1249,-73.7718,Partial,0.5871,5.8217
+AMNH,MO-2988,Procyon lotor fuscipes,F,1891,Texas,Nueces,,Plains,27.7778,-97.6629,Fused,0.5421,6.4046
+AMNH,MO-2989,Procyon lotor fuscipes,F,1891,Texas,Nueces,,Plains,27.7778,-97.6629,Fused,0.5421,6.4046
+AMNH,MO-3375,Procyon lotor hirtus,M,1891,Minnesota,Hennepin,,Plains,44.892672,-93.180948,Fused,0.8891,6.7985
+AMNH,MO-8335,Procyon lotor psora,M,1892,California,San Diego,,PacificWest,33.0185,-116.6934,Fused,0.4619,5.2735
+AMNH,M-16667,Procyon lotor lotor,M,1901,New York,Orange,,East,41.33071,-73.98692,Fused,0.5279,4.6671
+AMNH,M-16668,Procyon lotor lotor,F,1901,New York,Orange,,East,41.33071,-73.98692,Partial,0.5279,4.6671
+AMNH,M-187837,Procyon lotor lotor,M,1961,New York,Suffolk,,East,40.83992,-73.34002,Partial,0.7226,5.8958
+AMNH,M-238270,Procyon lotor,M,1976,Georgia,Liberty,,East,31.62682,-81.15432,Fused,0,5.2439
+CHAS,1855,Procyon lotor,F,1891,Illinois,Will,,East,41.640364,-88.068823,Fused,0.45,5.2503
+CHAS,3266,Procyon lotor,M,1934,Florida,Monroe,,East,25.141791,-80.925349,Fused,0.959,5.2106
+CHAS,3331,Procyon lotor,F,1934,Florida,Sarasota,,East,27.083574,-82.31918,Fused,0,4.1551
+DMNS,1252,Procyon lotor hirtus,M,1914,Colorado,Las Animas,,Plains,37.03405,-103.047806,Fused,0.2447,7.629
+DMNS,6676,Procyon lotor hirtus,M,1949,Colorado,Cheyenne,,Plains,38.762716,-102.795413,Partial,0,8
+DMNS,9317,Procyon lotor hirtus,M,1997,Colorado,Denver,,Plains,39.702206,-104.805779,Fused,0.9999,7.7543
+FMNH,235449,Procyon lotor,M,2003,Wisconsin,Brown,,East,44.347675,-87.827268,Partial,0.8387,5.9517
+LACM,52261,Procyon lotor,M,1967,California,Inyo,,PacificWest,36.4480863,-118.024792,Fused,0.1932,7.0299
+LACM,92339,Procyon lotor,M,1955,Maryland,Dorchester,,East,38.4601,-76.0316,Fused,1,5.0768
+LACM,92342,Procyon lotor,M,1952,South Carolina,Dillon,,East,34.4005,-79.3465,Fused,1,7.875
+MCZ,BANGS-1949,Procyon lotor lotor,F,1894,Connecticut,"Southeastern
+Connecticut Planning Region",,East,41.66565,-72.2548,Fused,0.3903,5.6678
+MCZ,BANGS-2495,Procyon lotor elucus,M,1893,Florida,Citrus,,East,28.97859,-82.56871,Fused,0,2.999
+MCZ,BANGS-3502,Procyon lotor elucus,M,1895,Florida,Brevard,,East,27.92349,-80.48819,Fused,0,4.3573
+MCZ,BANGS-6522,Procyon lotor elucus,F,1897,Florida,Duval,,East,30.40316,-81.56152,Fused,0.6418,5.7644
+MCZ,BANGS-7906,Procyon lotor psora,F,1895,California,Marin,,PacificWest,38.06159,-122.6986,Fused,0.2517,6.2223
+MCZ,BANGS-7907,Procyon lotor psora,F,1897,California,Marin,,PacificWest,38.06159,-122.6986,Fused,0.2517,6.2223
+MCZ,27823,Procyon lotor incautus,M,1930,Florida,Monroe,,East,24.69459,-81.32536,Partial,0.959,5.2106
+MCZ,27825,Procyon lotor marinus,M,1930,Florida,Collier,,East,25.81767,-81.35928,Fused,0,2.7802
+MCZ,27826,Procyon lotor auspicatus,F,1930,Florida,Monroe,,East,24.76323,-80.9521,Fused,0.959,5.2106
+MCZ,39017,Procyon lotor lotor,M,1904,Vermont,Franklin,,East,44.66972,-73.01253,Fused,0.2066,5.8637
+MCZ,55567,Procyon lotor lotor,M,1911,Maine,Kennebec,,East,44.32992,-69.85827,Fused,0.5492,5.2244
+MCZ,55569,Procyon lotor lotor,M,1911,Maine,Kennebec,,East,44.32992,-69.85827,Fused,0.5492,5.2244
+MCZ,60127,Procyon lotor lotor,F,1988,Massachusetts,Dukes,,East,41.48221,-70.75329,Fused,0,2.8801
+MCZ,62095,Procyon lotor lotor,F,1996,Massachusetts,Essex,,East,42.628,-71.14835,Fused,0.9029,6.0437
+MSB,101903,Procyon lotor hirtus,M,1974,Montana,Custer,,Plains,46.379166,-105.887184,Fused,0,7.332
+MSB,108248,Procyon lotor pallidus,F,1981,Colorado,Moffat,,Plains,40.7975011,-108.924977,Fused,0.6193,6.772
+MSB,108348,Procyon lotor pallidus,F,1981,Colorado,Moffat,,Plains,40.7975011,-108.924977,Fused,0.6193,6.772
+MSB,19102,Procyon lotor,F,1963,South Dakota,Minnehaha,,Plains,43.7177,-96.4713,Fused,0.7691,6.6252
+MSB,119375,Procyon lotor hirtus,F,2005,Nebraska,Cherry,,Plains,42.533968,-100.525884,Partial,0.4458,7.9497
+MSB,160448,Procyon lotor pallidus,M,1966,Arizona,Coconino,,Desert,35.24941,-112.27944,Fused,0.2565,3.1507
+MSB,49875,Procyon lotor mexicanus,F,1982,New Mexico,Bernalillo,,Desert,35.1042821,-106.375781,Fused,0.9642,5.2999
+MSB,49876,Procyon lotor mexicanus,M,1982,New Mexico,Bernalillo,,Desert,35.1042821,-106.375781,Fused,0.9642,5.2999
+MSB,54908,Procyon lotor mexicanus,F,1984,New Mexico,Bernalillo,,Desert,35.1042821,-106.375781,Partial,0.9642,5.2999
+MSB,55592,Procyon lotor mexicanus,F,1985,New Mexico,Bernalillo,,Desert,35.1042821,-106.375781,Fused,0.9642,5.2999
+MSB,64399,Procyon lotor,F,1947,Florida,St Johns,,East,30.1778,-81.3878,Fused,1,3.999
+MSB,82505,Procyon lotor,M,1994,New Mexico,Socorro,,Desert,34.41861,-106.833054,Partial,0.551,5.6667
+MSB,96189,Procyon lotor,F,1997,New Mexico,Bernalillo,,Desert,35.1075478,-106.372795,Fused,0.956,5.2999
+MSB,142758,Procyon lotor,M,1999,New Mexico,Bernalillo,,Desert,35.1075478,-106.372795,Fused,0.956,5.2999
+MVZ,3240,Procyon lotor psora,F,1908,California,San Diego,,PacificWest,33.07,-116.6,Fused,0.5044,5.2735
+MVZ,3291,Procyon lotor psora,M,1904,California,Shasta,,PacificWest,40.7846896,-122.295592,Fused,0.1701,4.5783
+MVZ,94918,Procyon lotor psora,F,1941,California,Ventura,,PacificWest,34.4587794,-118.883743,Fused,1,5.7326
+MVZ,141821,Procyon lotor psora,M,1992,California,Placer,,PacificWest,38.8943385,-121.24783,Fused,0.6602,3.4297
+MVZ,179773,Procyon lotor solutus,M,1990,South Carolina,Aiken,,East,33.2379,-81.6223,Fused,0.5955,5.3918
+UCM,6018,Procyon lotor,M,1954,Colorado,Boulder,,Plains,40.0085432,-105.280288,Fused,1,5.0457
+UCM,11539,Procyon lotor hirtus,M,1959,Colorado,Larimer,,Plains,40.6516656,-105.071678,Partial,1,5.3705
+UMZM,5830,Procyon lotor,M,1959,Montana,Ravalli,,Plains,46.572782,-114.078003,Fused,1,6.2549
+UMZM,11585,Procyon lotor,M,1963,Montana,Lincoln,,Plains,48.363449,-115.3229,Partial,0,6.9322
+UMZM,11934,Procyon lotor,M,1966,Montana,Carbon,,Plains,45.601209,-108.978878,Fused,0.2783,8
+UMZM,16149,Procyon lotor,F,1976,Montana,Missoula,,Plains,46.725472,-113.575908,Fused,0,4.3437
+USNM,31654,Procyon lotor psora,F,1891,California,San Luis Obispo,,PacificWest,35.3474,-120.336,Fused,0.1863,4.6216
+USNM,58854,Procyon lotor hernandezii,M,1893,Arizona,Pima,,Desert,32.259769,-110.872994,Fused,0.4064,4.2946
+USNM,58855,Procyon lotor hernandezii,F,1893,Arizona,Pima,,Desert,32.259769,-110.872994,Fused,0.4064,4.2946
+USNM,97717,Procyon lotor psora,F,1899,California,Humboldt,,PacificWest,40.7376,-123.8951,Partial,0.207,6.6792
+USNM,98611,Procyon lotor psora,F,1899,California,Mendocino,,PacificWest,39.3833,-123.4391,Partial,0,5.3479
+USNM,98612,Procyon lotor psora,M,1899,California,Humboldt,,PacificWest,40.302565,-123.900993,Fused,0.207,6.6792
+USNM,107214,Procyon lotor psora,F,1900,California,Sonoma,,PacificWest,38.4826,-122.8587,Partial,0.274,5.2105
+USNM,107900,Procyon lotor psora,F,1900,California,Monterey,,PacificWest,36.3564,-121.494,Fused,0.1705,5.6803
+USNM,111255,Procyon lotor elucus,F,1902,Florida,Polk,,East,28.946449,-81.748963,Partial,0,4.2714
+USNM,116198,Procyon lotor pallidus,M,1902,Arizona,Maricopa,,Desert,33.2798,-112.7681,Fused,0.271,4.4364
+USNM,118625,Procyon lotor hernandezii,M,1902,New Mexico,Guadalupe,,Desert,34.7867,-104.7101,Partial,0,6.341
+USNM,126306,Procyon lotor fuscipes,F,1903,Texas,Bowie,,Plains,33.4761,-94.3949,Fused,0.197,6.0812
+USNM,132463,Procyon lotor hirtus,M,1904,Oklahoma,Comanche,,Plains,34.7438,-98.53138,Fused,0,5.5031
+USNM,133295,Procyon lotor hirtus,F,1904,Oklahoma,Comanche,,Plains,34.6414,-98.4841,Fused,0,5.5031
+USNM,136547,Procyon lotor fuscipes,F,1905,Texas,Hardin,,Plains,30.201386,-94.313162,Fused,0,5.6149
+USNM,138682,Procyon lotor megalodous,F,1905,Louisiana,Vermilion,,East,29.776539,-92.456537,Fused,0,4.5524
+USNM,160166,Procyon lotor hirtus,F,1909,Colorado,San Juan,,Plains,37.8024,-107.6462,Fused,0,8
+USNM,187909,Procyon lotor gloveralleni,M,1885,South Carolina,Beaufort,,East,32.287124,-80.607887,Fused,0.0845,3.0669
+USNM,187910,Procyon lotor gloveralleni,F,1885,South Carolina,Beaufort,,East,32.387201,-80.560787,Partial,0.0845,3.0669
+USNM,205778,Procyon lotor pallidus,M,1914,Arizona,Apache,,Desert,34.158604,-109.302416,Fused,0,4.3688
+USNM,210202,Procyon lotor fuscipes,F,1915,Texas,Randall,,Plains,34.985576,-101.654686,Fused,0,4.9696
+USNM,214198,Procyon lotor pacificus,F,1916,Oregon,Morrow,,PacificWest,45.169614,-119.88812,Fused,0,6.3856
+USNM,216292,Procyon lotor hirtus,M,1916,Colorado,Baca,,Plains,37.3182,-102.5627,Fused,0,8
+USNM,221636,Procyon lotor pallidus,M,1916,Arizona,Navajo,,Desert,33.554955,-109.673824,Fused,0,3.9093
+USNM,223806,Procyon lotor excelsius,M,1916,Oregon,Morrow,,PacificWest,45.4638,-119.5752,Fused,0,6.3856
+USNM,224006,Procyon lotor pacificus,F,1916,Oregon,Josephine,,PacificWest,42.3912,-123.6336,Fused,0,3.5337
+USNM,225358,Procyon lotor pacificus,M,1917,Oregon,Josephine,,PacificWest,42.894895,-122.764217,Fused,0,3.5337
+USNM,227701,Procyon lotor hirtus,F,1917,Wyoming,Crook,,Plains,44.5882,-104.5708,Fused,0,6.7614
+USNM,227729,Procyon lotor pallidus,M,1917,Arizona,Mohave,,Desert,35.6177,-113.9958,Partial,0,3.1585
+USNM,253822,Procyon lotor lotor,M,1897,Virginia,Buckingham,,East,37.5633,-78.5588,Partial,0,8
+UWBM,14976,Procyon lotor,F,1937,Washington,Pierce,,PacificWest,47.2531,-122.4431,Fused,0.7166,4.821
+UWBM,32815,Procyon lotor,F,1979,Washington,King,,PacificWest,47.65838,-122.40342,Fused,0.9246,5.5637
+UWBM,59960,Procyon lotor,F,1980,Massachusetts,Hampden,,East,42.19,-72.63,Partial,0.8993,7.1774
+UWBM,59961,Procyon lotor,M,1967,Florida,Hillsborough,,East,27.9526,-82.3708,Partial,0.7982,4.9515
+UWBM,59962,Procyon lotor,F,1967,Florida,Manatee,,East,27.3364,-82.5306,Fused,0.3891,3.9563
+UWBM,59963,Procyon lotor,M,1968,Florida,Indian River,,East,27.6383,-80.3975,Fused,0.3018,4.7236
+UWBM,59964,Procyon lotor,F,1967,Florida,Hillsborough,,East,27.9392,-82.2771,Fused,0.7982,4.9515
+UWBM,59965,Procyon lotor,M,1980,Massachusetts,Hampden,,East,42.07,-72.94,Fused,0.8993,7.1774
+UWBM,59966,Procyon lotor,F,1982,Massachusetts,Hampden,,East,42.13,-72.8,Fused,0.8993,7.1774
+UWBM,59969,Procyon lotor,M,1980,Massachusetts,Hampden,,East,42.06,-72.86,Fused,0.8993,7.1774
