@@ -1,23 +1,31 @@
 sluka <- read.csv('data/slukadf.csv')
 museum <- read.csv('data/museumsluka.csv')
 
+#making some columns i need and adding data from museum sheet to sluka sheet
 sluka$location <- museum$State[match(sluka$Catalog_Number, museum$Catalog_Number)]
 sluka$ecoregion <- museum$Ecoregion[match(sluka$Catalog_Number, museum$Catalog_Number)]
 sluka$species <- museum$Species[match(sluka$Catalog_Number, museum$Catalog_Number)]
 sluka$Population.designation <- museum$X.UrbanPopulation[match(sluka$Catalog_Number, museum$Catalog_Number)]
 sluka$Population.designation <- ifelse(sluka$Population.designation >= 0.5, 1, 0)
 sluka$Year <- museum$Year[match(sluka$Catalog_Number, museum$Catalog_Number)]
+
+#getting rid of nas for either braincase volume or skull length to leave only those we can calc rcc for
 sluka <- sluka[!is.na(sluka$BCV), ]
 sluka <- sluka[!is.na(sluka$CBL), ]
 sluka$BCV <- as.numeric(sluka$BCV)
 sluka$CBL <- as.numeric(sluka$CBL)
+
+#relativecc calc
 sluka$relativecc <- sluka$BCV / sluka$CBL
 
+#subsetting data by location
 eastsluka <- sluka[sluka$ecoregion=="East",]
 westsluka <- sluka[sluka$ecoregion=="PacificWest",]
 plainssluka <- sluka[sluka$ecoregion=="Plains",]
 desertsluka <- sluka[sluka$ecoregion=="Desert",]
 
+
+#elm helped me here as it was taking absolutely ages to do analogue (as I did with snell_rood and depas)
 # Define a function to calculate mean, SD, Hedges' g, and 95% confidence intervals
 calculate_stats_with_hedges_ci <- function(data) {
   data$relativecc <- data$BCV / data$CBL
@@ -84,13 +92,11 @@ calculate_stats_with_hedges_ci <- function(data) {
   return(results)
 }
 
-# Apply the function to each dataset
 eastsluka_stats <- calculate_stats_with_hedges_ci(eastsluka)
 westsluka_stats <- calculate_stats_with_hedges_ci(westsluka)
 plainssluka_stats <- calculate_stats_with_hedges_ci(plainssluka)
 desertsluka_stats <- calculate_stats_with_hedges_ci(desertsluka)
 
-# Output results
 eastsluka_stats
 length(eastsluka$Population.designation=='0')
 length(eastsluka)
