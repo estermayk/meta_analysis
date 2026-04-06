@@ -27,9 +27,11 @@ forest(meta, slab = paste(data$paper, data$year), xlab = "Effect Size (Hedges' g
 
 data$var <- data$SE^2
 
+write.csv(data,"data/metafinal.csv", row.names = FALSE)
+
 meta2 <- rma.mv(yi = hedgesg, 
                      V = var, 
-                     random = ~ 1 | species, 
+                     random = ~ 1 | paper, 
                      data = data)
 summary(meta2)
 
@@ -40,6 +42,7 @@ meta3 <- rma.mv(yi = hedgesg,
                      data = data)
 
 summary(meta3)
+print(meta3)
 
 data$label <- paste(data$paper, data$year, sep = ", ")
 
@@ -59,4 +62,3 @@ legend("right", legend = names(colourpallet), fill = colourpallet, cex = 0.7, in
 #---- egger's test ----
 
 regtest(meta, model = "rma")
-
