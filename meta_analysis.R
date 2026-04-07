@@ -43,6 +43,9 @@ meta2 <- rma.mv(yi = hedgesg,
                      data = data)
 summary(meta2)
 
+forest(meta2, slab = paste(data$paper, data$year), xlab = "Effect Size (Hedges' g)", order = 'obs')
+
+
 #see colinearity.R for pca1 info
 meta3 <- rma.mv(yi = hedgesg, 
                      V = var, 
@@ -66,12 +69,12 @@ colourpallet <- setNames(colours, c("Blarina brevicuada", "Eptesicus fuscus", "M
 
 
 
-forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = colourpallet[data$legend])
+forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = colourpallet[data$legend], xlab = "Effect Size (Hedges' g)")
 
 
 layout(matrix(c(1, 2), nrow = 1), widths = c(3, 1))
-forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = row_colors)
-par(mar = c(5, 4, 4, 4) + 1)
+forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = colourpallet[data$legend], xlab = "Effect Size (Hedges' g)")
+par(mar = c(5, 4, 4, 10) + 1)
 legend("right", legend = names(colourpallet), fill = colourpallet, cex = 0.7, inset = c(-0.43, 0), xpd = TRUE, bty = "n")
 ?forest
 
