@@ -19,7 +19,7 @@ print(setdiff(unique_states_map, unique_states_location))
 map_data <- states_map %>%
   left_join(locations, by = c("region" = "State"))
 
-# Define ecoregion colors
+#define ecoregion colors
 ecoregion_colors <- c("plains" = "lightgreen", "east" = "lightblue", 
                       "west" = "lightcoral", "desert" = "khaki")
 

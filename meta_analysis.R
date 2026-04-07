@@ -13,6 +13,11 @@ data$length_of_collection_scaled <- scale(data$length_of_collection, center = TR
 
 #estimating SE
 data$SE <- (data$upper95 - data$lower95) / (2 * 1.96)
+data$location <- factor(data$location)
+levels(data$location)
+data$relativeby <- factor(data$relativeby)
+levels(data$relativeby)
+data$location <- relevel(data$location, ref = "plains")
 
 #formatting for plotting
 meta <- rma(yi = data$hedgesg, sei = data$SE, data = data, method = "REML")
@@ -40,12 +45,14 @@ summary(meta2)
 
 meta3 <- rma.mv(yi = hedgesg, 
                      V = var, 
-                     mods = ~ first_collection_scaled + length_of_collection_scaled + relativeby + location, 
+                     mods = ~ relativeby + location + pca1, 
                      random = ~ 1 | species/paper, 
                      data = data)
 
 summary(meta3)
 print(meta3)
+
+#---- plotting by species ----
 
 data$label <- paste(data$paper, data$year, sep = ", ")
 
@@ -56,12 +63,29 @@ colours <- c("seagreen3", "skyblue2", "thistle2", "olivedrab3", "plum3", "slateg
 
 colourpallet <- setNames(colours, c("Blarina brevicuada", "Eptesicus fuscus", "Microtus pennsylvanicus", "Peromyscus leucopus", "Clethrionomys gapperi", "Geomys bursarius", "Myotis lucifugus", "Scuirus carolinensis", "Sorex cinereus", "Tamiasciurus hudsonicus", "Procyon loctor"))
 
-layout(matrix(c(1, 2), nrow = 1), widths = c(3, 1))
+
+
 forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = colourpallet[data$legend])
-par(mar = c(5, 4, 4, 9) + 1)
-legend("right", legend = names(colourpallet), fill = colourpallet, cex = 0.7, inset = c(-0.445, 0), xpd = TRUE, bty = "n")
+
+
+layout(matrix(c(1, 2), nrow = 1), widths = c(3, 1))
+forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = row_colors)
+par(mar = c(5, 4, 4, 4) + 1)
+legend("right", legend = names(colourpallet), fill = colourpallet, cex = 0.7, inset = c(-0.43, 0), xpd = TRUE, bty = "n")
 ?forest
+
+#---- plotting by ecoregion ----
+
+ecoregion_coulors <- c("plains" = "lightgreen", "east" = "lightblue", 
+                      "west" = "lightcoral", "desert" = "khaki")
+row_colours <- ecoregion_colours[data$location]
+
+forest(meta3,cex.lab=0.8,cex.axis=0.8,addfit=TRUE,shade="zebra", order = 'obs', slab = data$label, colout = row_colors)
+
 
 #---- egger's test ----
 
 regtest(meta, model = "rma")
+
+
+
