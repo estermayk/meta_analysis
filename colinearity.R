@@ -22,7 +22,6 @@ coef(ridge_model, s = best_lambda)
 #this whacked most multicolinearity down ~ 5 or below as was no longer comparing to unstable desert estimate
 #still seeing issues in first and length of collection
 
-
 variables <- data.frame(first_collection = data$first_collection_scaled,
                         length_of_collection = data$length_of_collection_scaled)
 

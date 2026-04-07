@@ -43,10 +43,11 @@ meta2 <- rma.mv(yi = hedgesg,
                      data = data)
 summary(meta2)
 
+#see colinearity.R for pca1 info
 meta3 <- rma.mv(yi = hedgesg, 
                      V = var, 
                      mods = ~ relativeby + location + pca1, 
-                     random = ~ 1 | species/paper, 
+                     random = ~ 1 | paper, 
                      data = data)
 
 summary(meta3)
