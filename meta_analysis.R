@@ -2,9 +2,12 @@
 install.packages("metafor",dependencies=TRUE,repos="https://cloud.r-project.org")
 library(metafor)
 
+#extracting and scaling first year of collection and length of collection
 data <- read.csv('data/meta_analysis.csv')
 data$first_collection <- as.numeric(sub("-.*", "", data$collection_period))
 data$length_of_collection <- as.numeric(sub(".*-", "", data$collection_period)) - data$first_collection
+data$first_collection_scaled <- scale(data$first_collection, center = TRUE, scale = TRUE)
+data$length_of_collection_scaled <- scale(data$length_of_collection, center = TRUE, scale = TRUE)
 
 #---- some playing with plots ----
 
@@ -37,7 +40,7 @@ summary(meta2)
 
 meta3 <- rma.mv(yi = hedgesg, 
                      V = var, 
-                     mods = ~ first_collection + length_of_collection + relativeby + location, 
+                     mods = ~ first_collection_scaled + length_of_collection_scaled + relativeby + location, 
                      random = ~ 1 | species/paper, 
                      data = data)
 
